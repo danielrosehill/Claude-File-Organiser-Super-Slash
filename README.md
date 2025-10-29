@@ -163,11 +163,7 @@ Claude-File-Organiser-Super-Slash/
 - Use lowercase (`.jpg` not `.JPG`)
 - Avoid multiple extensions unless necessary
 - Remove redundant extensions
-
-### Versioning
-- Use semantic versioning: `v1`, `v2`, `v1.1`
-- Place before extension: `proposal_v2.pdf`
-- Prefer descriptive states: `draft`, `review`, `final`
+ 
 
 ### Special Directories
 - `src/` - Source code
@@ -176,27 +172,9 @@ Claude-File-Organiser-Super-Slash/
 - `archive/` - Outdated but useful files
 - `temp/` - Temporary working files
 - `bin/` - Uncertain items for review
+ 
 
-## Cross-Platform Compatibility
-
-The agent ensures compatibility by:
-- Avoiding Windows reserved names (`CON`, `PRN`, `AUX`, etc.)
-- No trailing spaces or periods
-- No leading hyphens
-- Path length <260 characters (Windows MAX_PATH)
-
-## Contributing
-
-When contributing new versions:
-1. Create a new version directory
-2. Never overwrite existing versions
-3. Document changes and improvements
-4. Follow the established organizational principles
-
-## License
-
-[Add license information]
-
+ 
 ## Author
 
 Daniel Rosehill
@@ -204,10 +182,3 @@ Daniel Rosehill
 - Business: [DSR Holdings](https://dsrholdings.cloud)
 - Email: public@danielrosehill.com
 
-## Acknowledgments
-
-Built for use with Claude Code CLI by Anthropic.
-
----
-
-*"Order is the shape upon which beauty depends."*
